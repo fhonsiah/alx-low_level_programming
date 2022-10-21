@@ -12,7 +12,7 @@ int main(void)
 {
 	int m;
 	/*@for loops through 0 to 9*/
-	for (m = '0', m <= '9';m++)
+	for (m = '0'; m <= '9';m++)
 	{
 		putchar(m);
 		if (m != '9')
