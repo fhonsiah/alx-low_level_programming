@@ -7,6 +7,7 @@
  *Return: 0 is returned
  *
  */
+
 int main (void)
 {
 int m;
