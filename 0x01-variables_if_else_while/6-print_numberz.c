@@ -16,7 +16,7 @@ int main(void)
 	/*@for loops through 0 to 9*/
 	for (m = '0'; m <= '9'; m++)
 	{
-		putchar(m):
+		putchar(m);
 	}
 	putchar('\n');
 	return(0);
