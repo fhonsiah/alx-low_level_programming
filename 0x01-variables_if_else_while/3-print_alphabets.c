@@ -10,7 +10,9 @@
 int main(void)
 {
 int m;
+
 /*@for prints alphabets*/
+
 for (m = 'a'; m <= 'z'; m++)
 {
 putchar(m);
