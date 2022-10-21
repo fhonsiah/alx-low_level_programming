@@ -10,6 +10,7 @@
 
 int main(void)
 {
+	int m;
 	/*@for loops through z back to a*/
 	for (m = 'z'; m >= 'a'; m--)
 	{
