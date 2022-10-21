@@ -11,7 +11,7 @@
 int main(void)
 {
 	/*@for loops through z back to a*/
-	for (m= 'z'; m >= 'a'; m--)
+	for (m = 'z'; m >= 'a'; m--)
 	{
 		putchar(m);
 	}
