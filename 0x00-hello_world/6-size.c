@@ -1,10 +1,14 @@
 #include <stdio.h>
+
 /*
- *main - Entry point
+ *main - declaring variables with given datatypes, produce
+ *the exact size of the various datatypes in bytes.
  *
  *Return: Always 0 (Success)
  *
+ *
  */
+
 int main(void)
 {
 int a;
