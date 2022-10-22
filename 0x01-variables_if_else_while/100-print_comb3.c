@@ -15,6 +15,9 @@ int main(void)
 	/*@for loops through 0 to 9*/
 	for (m = '0'; m < '9';m++)
 	{
+		/*@for loops from 0 to 8*/
+		for (n = m + 1; n <= '9';n++)
+		{			
 		/*@if checks n to m*/
 		if (n != m)
 		{
@@ -25,6 +28,7 @@ int main(void)
 				continue;
 			putchar(',');
 			putchar(' ');
+		}
 		}
 	}
 	putchar('\n');
