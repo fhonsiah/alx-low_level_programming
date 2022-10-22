@@ -13,7 +13,7 @@ int main(void)
 {
 	int m, n;
 	/*@for loops from 0 to 98*/
-	for (m = '0'; m <= '98';m++)
+	for (m = 0; m <= 98;m++)
 	{
 		/*@for loops from m+1 to 99*/
 		for (n = m +1; n<= 99;n++)
