@@ -5,18 +5,12 @@
  *Description: This program checks for lowercase character.
  * 
  *@c: The interger value it receives
- *Return: 0
+ *Return: 1 if c is lowercase, 0 otherwise.
  */
 int  _islower(int c)
 {
-	int i = 'a';
-	for(i = 'a';i <= 'z';i++)
-	{
-		/*refer in C*/
-		if (c == 1)
-		{
-			return (1);
-		}
-	}
+if (c >= 97 && c <= 122)
+	return (1);
+else
 	return (0);
 }
