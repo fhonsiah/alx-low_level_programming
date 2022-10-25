@@ -39,8 +39,8 @@ int main(void)
 			printf("%i",0);
 			intial0s--;
 		}
-		printf("%lu", f1);
 
+		printf("%lu", f1);
 		tmp = (f1 + f2) % mx;
 		tmpo = f1o + f2o + (f1 + f2) / mx;
 		f1 = f2;
@@ -54,5 +54,7 @@ int main(void)
 			printf("\n");
 		i++;
 	}
+
 	return (0);
+
 }
