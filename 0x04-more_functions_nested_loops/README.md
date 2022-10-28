@@ -2,4 +2,5 @@
 
 ## File description
 
-# 0. A function that chaecks for uppercase character
+ 0. A function that checks for uppercase character.
+ 1. A function that checks for a digit (0 through 9).
