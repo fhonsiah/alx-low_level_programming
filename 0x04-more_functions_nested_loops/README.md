@@ -6,3 +6,4 @@
  1. A function that checks for a digit (0 through 9).
  2. Write a function that multiples two integers.
  3. A function that prints the numbers, from 0 to 9, followed by a new line.
+ 4. A function that prints the numbers, from 0 to 9, followed by a new line, Do not print 2 and 4.
