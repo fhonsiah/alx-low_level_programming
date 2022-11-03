@@ -23,7 +23,7 @@ int _atoi(char *s)
 	{
 		if(!isdigit(s[i]))
 		{
-			retrun (0);
+			return (0);
 		}
 	}
 
