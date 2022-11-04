@@ -1,5 +1,5 @@
 /**
- *Program: 103-infinte_add.c
+ *Program: 103-infinite_add.c
  *A function that prints an integer.
  *Author: Faustina Honsiah
  */
@@ -33,7 +33,7 @@ void string_reverse(char *n)
  *@n1: the first number.
  *@n2: the second number.
  *@r: the parameter for storing the result
- *@size)R: the buffer size
+ *@size_r: the buffer size
  *Return: a character pointer to the result
  */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
