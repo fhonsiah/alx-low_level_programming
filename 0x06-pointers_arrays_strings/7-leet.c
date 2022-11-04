@@ -12,7 +12,7 @@
 char *leet(char *str)
 {
 	int i = 0;
-	j = 0;
+	int j = 0;
 	char array_leet[] = {'4','3','1','0','7'};
 	char array_up[] = {'A','B','L','O','T'};
 	char array_low[] = {'a','e','l','o','t'};
