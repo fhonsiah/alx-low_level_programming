@@ -7,7 +7,7 @@
 /**
  *rot13 - encodes a string using rot13
  *@s: the string parameter to be encoded.
- *Retrun: a string which is encoded.
+ *Return: a string which is encoded.
  */
 char *rot13(char *s)
 {
