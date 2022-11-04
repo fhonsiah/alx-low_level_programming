@@ -9,7 +9,7 @@
  *@str: the string parameter to be evaluated.
  *Return: a string which is encoded.
  */
-char *leet(char str)
+char *leet(char *str)
 {
 	int i = 0;
 	int j = 0;
