@@ -8,15 +8,28 @@
  *print_chessboard -  function that prints the chessboard
  *@a: the pointer for the two dimensianol array
  */
-void print_chessboard(char (*a)[8])
+char *strstr(char *haystack, char *needle)
 {
-	int i;
-	int j;
+int a = 0, b = 0;
+while (haystack[a])
+{
+while (needle[b])
+{
+if (haystack[a + b] != needle[b])
+{
+break;
+}
 
-	for(i = 0; i < 8; i++)
-	{
-		for (j = 0; j < 8; j++)I
-			_putchar(a[i][j]);
-               _putchar('\n');
-	}
+b++;
+}
+
+if (needle[b] == '\0')
+{
+return (haystack + a);
+}
+
+a++;
+}
+
+return ('\0');
 }
