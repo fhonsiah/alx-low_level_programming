@@ -4,11 +4,11 @@
  *is_prime - Checker for checking prime number
  *@n:The number to be checked for prime
  *@i: iterator.
- *Retrun: integer
+ *Return: integer
  *
  */
 
-int is_prime(intn, int i)
+int is_prime(int n, int i)
 {
 	if(n <= 1)
 		return (0);
