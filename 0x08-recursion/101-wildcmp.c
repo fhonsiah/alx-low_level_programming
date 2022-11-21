@@ -6,7 +6,7 @@
  *@s2: A second string.
  *Return: 1 if string a identical, 0 otherwise
  */
-int wildcmp(char *S1, char *s2)
+int wildcmp(char *s1, char *s2)
 {
 	if (*s1 == '\0')
 	{
