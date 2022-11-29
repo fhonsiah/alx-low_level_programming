@@ -15,7 +15,7 @@ int n1 = 0, n2 = 0, i = 0, i1 = 0, i2 = 0;
 
 if (s1 != NULL)
 while (s1[n1] != 0)
-n++;
+n1++;
 else
 s1 = "";
 if (s2 != NULL)
