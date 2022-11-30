@@ -1,4 +1,4 @@
-I#include "main.h"
+#include "main.h"
 #include <stdlib.h>
 /***
  *argstostr - concatenates all the arguments of a program.
